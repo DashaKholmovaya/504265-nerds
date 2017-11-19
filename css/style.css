@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  color: #fb565a;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation-current {
+  border-bottom: 2px solid #fb565a;
+}
+
+.info {
+  background-color: #eeeeee;
+}
+
+.slogan, .page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.button-red {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: none;
+  border: none;
+  background-color: #fb565a;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-red:hover {
+  background-color: #e74246;
+}
+
+.button-red:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-green {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #00ca74;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-green:hover {
+  background-color: #00bc6c;
+}
+
+.button-green:active {
+  background-color: #00aa62;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-yellow {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #efc84a;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-yellow:hover {
+  background-color: #eab534;
+}
+
+.button-yellow:active {
+  background-color: #e5a722;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.types-of-services {
+  text-transform: uppercase;
+}
+
+.small-studio, .modal-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.orders, .table-numerals {
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.order-list {
+  list-style-type: none;
+}
+
+.order-list::before {
+  color: red;
+  /* Цвет маркера */
+  content: "-";
+  /* Сам маркер */
+  padding-right: 15px;
+  /* Расстояние от маркера до текста */
+}
+
+.numerals {
+  font-size: 45px;
+  line-height: 10.06px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.advantages {
+  line-height: 18px;
+}
+
+.html-academy, .Barbershop, .pink, .mishka {
+  opacity: 0.2;
+}
+
+.html-academy:hover, .Barbershop:hover, .pink:hover, .mishka:hover {
+  opacity: 1;
+}
+
+.html-academy:active, .Barbershop:active, .pink:active, .mishka:active {
+  opacity: 0.1;
+}
+
+.contact-us-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-us-adress {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.contact-us-item {
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.contact-us-item input {
+  font: inherit;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 0.5);
+  border: 2px solid #d7dcde;
+}
+
+.contact-us-item input:hover, .contact-us-item textarea:hover {
+  border-color: #b4b9bb;
+}
+
+.contact-us-item input:focus, .contact-us-item textarea:focus {
+  border-color: #000000;
+  color: #000000;
+}
+
+.contact-us-item textarea {
+  font: inherit;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 0.5);
+  border: 2px solid #d7dcde;
+}
+
+.discounts-slogan {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.discounts-10 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
+
+.cost, .grid, .features {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.cost {
+  letter-spacing: 0.01em;
+}
+
+.sorting {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.filter-input-number {
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.filter-input-radio, .filter-input-checkbox {
+  line-height: 20px;
+  list-style-type: none;
+}
+
+.filter-input-radio:hover + label, .filter-input-checkbox:hover + label {
+  color: #000000;
+}
+
+
+.filter-input-radio:disabled + label, .filter-input-checkbox:disabled + label {
+  color: rgba(40, 49, 54, 0.3);
+}
+
+
+.price, .type, .name, .sorting-control, .sorting-control {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.price:hover, .type:hover, .name:hover, .sorting-control:hover, .sorting-control:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.price:active, .price-current, .type:active, .name:active, .sorting-control:active, .sorting-control-active, .sorting-control:active {
+  color: #000000;
+}
+
+
+.item-page {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.description {
+  line-height: 18px;
+  color: #666666;
+}
+
+.filter-button, .page1, .page2, .page3, .next {
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: none;
+  border: none;
+  background-color: #eeeeee;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-button:hover, .page1:hover, .page2:hover, .page3:hover, .next:hover {
+  background-color: #dfdfdf;
+}
+
+.filter-button:active, .page1:active, .page2:active, .page3:active, .next:active {
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.page-current {
+  background-color: #ffffff;
+  border: 2px solid #dbdbdb;
+}

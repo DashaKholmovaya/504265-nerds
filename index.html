@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,11 +16,11 @@
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Nërd's">
       </a>
       <ul class="site-navigation">
-        <li tabindex="0"><a href="index.html">Студия</a></li>
-        <li><a href="customers.html">Клиенты</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-        <li><a href="basket.html">Корзина</a></li>
+        <li><a href="index.html" tabindex="0">Студия</a></li>
+        <li><a href="customers.html" tabindex="0">Клиенты</a></li>
+        <li><a href="catalog.html" tabindex="0">Магазин</a></li>
+        <li><a href="contacts.html" tabindex="0">Контакты</a></li>
+        <li><a href="basket.html" tabindex="0">Корзина</a></li>
       </ul>
     </nav>
   </header>
@@ -29,33 +32,33 @@
       <div class="slider1">
         <h2 class="slogan">Долго, дорого, скурпулезно.</h2>
         <p>Математически выверенный дизайн для&nbsp;вашего сайта или&nbsp;мобильного приложения.</p>
-        <a class="button-red" href="info.html">Узнать больше</a>
+        <a class="button-red" href="info.html" tabindex="0">Узнать больше</a>
       </div>
       <div class="slider2">
         <h2 class="slogan">Любим математику как&nbsp;никто другой</h2>
         <p>Никакого креатива, только&nbsp;математические формулы для&nbsp;расчета идеальных пропорций</p>
-        <a class="button-red" href="info.html">Узнать больше</a>
+        <a class="button-red" href="info.html" tabindex="0">Узнать больше</a>
       </div>
       <div class="slider3">
         <h2 class="slogan">Только ночь, только&nbsp;хардкор</h2>
         <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-        <a class="button-red" href="info.html">Узнать больше</a>
+        <a class="button-red" href="info.html" tabindex="0">Узнать больше</a>
       </div>
     </section>
     <section class="services">
       <h2 class="visually-hidden">Услуги</h2>
       <img src="img/illustration-1.png" width="300" height="146" alt="вэб-сайты">
-      <h4>Вэб-сайты</h4>
+      <h4 class="types-of-services">Вэб-сайты</h4>
       <p>Мир никогда не будет прежним после&nbsp;того как увидит ваш сайт!</p>
-      <p><a class="button-red" href="order.html">Заказать</a></p>
+      <p><a class="button-red" href="order.html" tabindex="0">Заказать</a></p>
       <img src="img/illustration-2.png" width="300" height="146" alt="приложения">
-      <h4>Приложения</h4>
+      <h4 class="types-of-services">Приложения</h4>
       <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-      <p><a class="button-green" href="order.html">Заказать</a></p>
+      <p><a class="button-green" href="order.html" tabindex="0">Заказать</a></p>
       <img src="img/illustration-3.png" width="300" height="146" alt="презентации">
-      <h4>Презентации</h4>
+      <h4 class="types-of-services">Презентации</h4>
       <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-      <p><a class="button-yellow" href="order.html">Заказать</a></p>
+      <p><a class="button-yellow" href="order.html" tabindex="0">Заказать</a></p>
     </section>
     <section class="about-company">
       <h2 class="visually-hidden">О нас</h2>
@@ -64,9 +67,9 @@
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не&nbsp;покладая рук, как роботы.</p>
         <p class="orders"><b>Выполняем заказы на разработку:</b></p>
         <ul>
-          <li>Вэб-сайтов любой сложности</li>
-          <li>Мобильных приложений для IOS и Android</li>
-          <li>Слайдшоу и видео для корпоративных презентаций</li>
+          <li class="order-list">Вэб-сайтов любой сложности</li>
+          <li class="order-list">Мобильных приложений для IOS и Android</li>
+          <li class="order-list">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
       </article>
       <div class="table">
@@ -78,7 +81,7 @@
             <td class="numerals">100<sup>%</sup></td>
             <td class="numerals">50<sup>%</sup></td>
           </tr>
-          <tr>
+          <tr class="advantages">
             <td>Уровень самоотдачи</td>
             <td>Соблюдение сроков</td>
             <td>Минимальная предоплата</td>
@@ -88,58 +91,57 @@
     </section>
     <section class="our-clients">
       <h3 class="visually-hidden">Заказчики</h3>
-      <a href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="img/logo-1.png" width="199" height="68" alt="html academy">
+      <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+        <img src="img/logo-1.png" width="199" height="68" alt="html academy" tabindex="0">
       </a>
-      <img src="img/logo-2.png" width="209" height="90" alt="Barbershop BORODINSKI">
-      <img src="img/logo-3.png" width="185" height="52" alt="PINK">
-      <img src="img/logo-4.png" width="173" height="84" alt="MISHKA">
+      <a class="Barbershop" href="Barbershop.html"><img src="img/logo-2.png" width="209" height="90" alt="Barbershop BORODINSKI" tabindex="0"></a>
+      <a class="pink" href="pink.html"><img src="img/logo-3.png" width="185" height="52" alt="PINK" tabindex="0"></a>
+      <a class="mishka" href="mishka.htmls"><img src="img/logo-4.png" width="173" height="84" alt="MISHKA" tabindex="0"></a>
     </section>
   </main>
   <footer>
     <section class="map-contacts">
       <h3 class="visually-hidden">Как нас найти</h3>
       <div class="contact-us">
-        <p><b>nёrds design studio</b></p>
-        <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7(812)275-75-75</p>
-        <p><a class="button-red" href="contact-us.html">Напишите нам</a></p>
+        <p class="contact-us-title"><b>nёrds design studio</b></p>
+        <p class="contact-us-adress">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+        <p class="contact-us-adress">тел. +7(812)275-75-75</p>
+        <p><a class="button-red" href="contact-us.html" tabindex="0">Напишите нам</a></p>
       </div>
       <div class="modal-contact-us">
         <button class="modal-close" type="button">Закрыть</button>
         <form class="contact-us-form" action="https://echo.htmlacademy.ru" method="post">
+          <h3 class="modal-title">Напишите нам</h3>
           <p class="contact-us-item">
             <label for="contact-us-name">Ваше имя:</label>
-            <input id="contact-us-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+            <input id="contact-us-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста" tabindex="0">
           </p>
           <p class="contact-us-item">
             <label for="contact-us-e-mail">Ваш e-mail</label>
-            <input id="contact-us-e-mail" type="text" name="e-mail" value="" placeholder="Для отправки ответа">
+            <input id="contact-us-e-mail" type="text" name="e-mail" value="" placeholder="Для отправки ответа" tabindex="0">
           </p>
           <p class="contact-us-item">
             <label for="contact-us-writing">Текст письма:</label>
-            <textarea id="contact-us-writing" rows="5" cols="50" placeholder="В свободной форме"></textarea>
+            <textarea id="contact-us-writing" rows="5" cols="50" placeholder="В свободной форме" tabindex="0"></textarea>
           </p>
-          <button class="button-order" type="submit">Отправить</button>
+          <button class="button-red" type="submit" tabindex="0">Отправить</button>
         </form>
       </div>
     </section>
     <section class="map">
       <h3 class="visually-hidden">Карта. Как нас найти</h3>
-      <p>
-        <img src="img/map.png" width="1440" height="416" alt="Офис компании по адресу
+      <img src="img/map.png" width="1440" height="416" alt="Офис компании по адресу
         ул. Большая Конюшенная 19/8, Санкт-Петербург">
-      </p>
     </section>
     <section class="footer-social">
       <h3 class="visually-hidden">Мы в соцсетях</h3>
-      <a class="social-button" href="vkontakte.html">Вконтакте</a>
-      <a class="social-button" href="facebook.html">Фейсбук</a>
-      <a class="social-button" href="instagram.html">Инстаграм</a>
+      <a class="social-button" href="vkontakte.html" tabindex="0">Вконтакте</a>
+      <a class="social-button" href="facebook.html" tabindex="0">Фейсбук</a>
+      <a class="social-button" href="instagram.html" tabindex="0">Инстаграм</a>
     </section>
     <section class="discounts">
-      <h3>Давайте дружить, это выгодно!</h3>
-      <p>Скидка 10% для друзей из социальных сетей</p>
+      <h3 class="discounts-slogan">Давайте дружить, это выгодно!</h3>
+      <p class="discounts-10">Скидка 10% для друзей из социальных сетей</p>
     </section>
   </footer>
 </body>
